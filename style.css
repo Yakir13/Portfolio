@@ -75,6 +75,16 @@ p {
     background-color: crimson;
 }
 
+.brand h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.brand h1 span {
+    color: crimson;
+}
+
 /* Hero */
 #hero {
     background-image: url(./img/hero-bg.jpg);
@@ -301,7 +311,7 @@ p {
 }
 
 #contact .icon {
-    width: 70px;
+    width: 50px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
@@ -330,4 +340,42 @@ p {
     padding-top: 50px;
     padding-bottom: 10px;
 }
+
+#footer h2 {
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#footer .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+}
+
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+
+#footer .social-item:hover img {
+    filter: grayscale(0);
+}
+
+#footer p {
+    color: #fff;
+    font-size: 1.3rem;
+}
 /* End Footer */
+
+/* Media Query For Tablet */
+
+/* End Media Query For Tablet */
