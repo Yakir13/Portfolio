@@ -9,6 +9,7 @@
 html {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
+    background-color: #99abbd;
 }
 
 a {
@@ -35,7 +36,7 @@ img {
 
 p {
     color: #252525;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 300;
@@ -62,7 +63,7 @@ p {
     color: #fff;
     background-color: transparent;
     border: 2px solid crimson;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 30px;
@@ -116,11 +117,10 @@ p {
 #hero h1 {
     display: block;
     width: fit-content;
-    font-size: 5rem;
+    font-size: 4rem;
     position: relative;
     color: #fff;
 }
-
 /* End Hero */
 
 /* Skill */
@@ -134,7 +134,7 @@ p {
 
 #skills .skill-top p {
     color: #252525;
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-top: 5px;
     line-height: 2.5rem;
     font-weight: 300;
@@ -336,7 +336,8 @@ p {
 
 #footer .footer {
     min-height: 200px;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 20px;
     padding-top: 50px;
     padding-bottom: 10px;
 }
@@ -389,7 +390,7 @@ p {
 
     /* Hero */
     #hero h1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     /* Skills */
@@ -429,12 +430,12 @@ p {
     }
 
     #about .col-right {
-        text-align: left;
+        text-align: center;
         padding: 30px;
     }
 
     #about .col-right h1 {
-        text-align: left;
+        text-align: center;
     }
     /* End About */
 }
