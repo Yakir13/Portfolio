@@ -401,7 +401,7 @@ p {
 
     /* Projects */
     #projects .project-item {
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     #projects .project-item:nth-child(even){
@@ -409,7 +409,7 @@ p {
     }
 
     #projects .project-item {
-        height: 400px;
+        height: 500px;
         margin: 0;
         width: 100%;
         border-radius: 0;
@@ -420,7 +420,7 @@ p {
     }
     
     #projects .all-projects .project-img {
-        height: 150%;
+        height: 100%;
     }
     /* End Projects */
 
